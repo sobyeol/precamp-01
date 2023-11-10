@@ -1,0 +1,57 @@
+.layout{
+    width: 1920px;
+    height: 1080px;
+    flex-shrink: 0;
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background{
+
+
+    width: 670px;
+    height: 960px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 7px 7px 39px 0px rgba(0,104,255, 0.25);
+    border-radius: 20px;
+    border: 1px solid #AACDFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.title{
+
+    width: 466px;
+    color: #0068FF;
+    font-size: 32px;
+    font-family: Noto Sans CJK KR;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input{
+    width: 466px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+input.vector{
+    
+    width: 466px;
+    border-top-width: 0;
+    border-bottom-width: 1;
+
+    stroke-width: 1px;
+    stroke: #0068FF;
+
+    
+}
